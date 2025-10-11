@@ -142,6 +142,7 @@ body {
 
 #bt-1 {
   background: #f1ae00;
+  border-color: #000000;
 }
 
 #bt-2 {
@@ -223,7 +224,18 @@ p, h1, h2, h3, pre {
   margin-right: 3%;
 }
 
+.badge-blog {
+  flex: 0 0 25%; /* 20% of container width */
+  margin-right: 3%;
+}
+
 .badge img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.badge-blog img {
   width: 100%;
   height: auto;
   object-fit: contain;
@@ -325,14 +337,23 @@ p, h1, h2, h3, pre {
   }
   
   .name-pos h2 {
-    font-size: 18px;
+    font-size: 14px;
   }
+  
+  pre {
+    font-size: 90%;
+  }
+
   
   .abt {
     font-size: 12px;
   }
   
   .sub {
+    z-index: 1;
+  }
+  
+  .name-pos {
     z-index: 1;
   }
   
@@ -370,8 +391,12 @@ p, h1, h2, h3, pre {
   }
   
   .badge img {
-    width: 60%;               /* make badge smaller on mobile */
+    width: 80%;               /* make badge smaller on mobile */
     margin: 0 auto 1rem;      /* center image with spacing */
+  }
+  
+  .badge-blog img {
+    width: 100%;               /* make badge smaller on mobile */
   }
   
   .frame {
