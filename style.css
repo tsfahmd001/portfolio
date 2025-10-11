@@ -370,7 +370,7 @@ p, h1, h2, h3, pre {
   }
   
   .badge img {
-    width: 80%;               /* make badge smaller on mobile */
+    width: 60%;               /* make badge smaller on mobile */
     margin: 0 auto 1rem;      /* center image with spacing */
   }
   
