@@ -350,7 +350,7 @@ p, h1, h2, h3, pre {
   }
   
   .bt {
-    margin-top: 0;
+    margin-top: 1px;
   }
   
   .section {
