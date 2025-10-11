@@ -150,7 +150,6 @@ body {
   border-color: #f1ae00;
 }
 
-
 #bt-3 {
   background: #000000;
   color: #c4c4c4;
@@ -327,6 +326,18 @@ p, h1, h2, h3, pre {
   .name-pos h2 {
     font-size: 20px;
   }
+  
+  .abt {
+    font-size: 12px;
+  }
+  
+  .sub {
+    z-index: 1;
+  }
+  
+  #cover {
+    z-index: 0;
+  }
 
   .content {
     margin-left: 5%;          /* remove sidebar space */
@@ -338,9 +349,32 @@ p, h1, h2, h3, pre {
     display: none;
   }
   
+  .bt {
+    margin-top: 0;
+  }
+  
   .section {
     padding-top: 0;
+    padding-right: 3%;
     margin-bottom: 30%;
+  }
+  
+  #cert-flex {
+    flex-direction: column;   /* stack vertically */
+    text-align: center;
+  }
+  
+  .details {
+    text-align: left;
+  }
+  
+  .badge img {
+    width: 80%;               /* make badge smaller on mobile */
+    margin: 0 auto 1rem;      /* center image with spacing */
+  }
+  
+  .frame {
+    width: 100%; 
   }
 }
 
