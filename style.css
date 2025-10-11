@@ -374,7 +374,9 @@ p, h1, h2, h3, pre {
   }
   
   .frame {
-    width: 100%; 
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
