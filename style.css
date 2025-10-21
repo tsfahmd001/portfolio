@@ -166,7 +166,7 @@ body {
 .abt {
   font-family: 'JetBrains Mono', monospace;
   color: #C4C4C4;
-  font-size: 16px;
+  font-size: 100%;
 }
 
 .card {
