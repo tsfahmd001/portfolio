@@ -35,6 +35,12 @@ body {
   overflow-x: hidden;
 }
 
+.headline {
+  color: #000000;
+  padding: 0px;
+  margin: 0px;
+}
+
 .content {
   margin-left: 48%; /* space for fixed sidebar */
   padding: 20px;
