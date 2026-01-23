@@ -36,7 +36,6 @@ body {
 }
 
 .headline {
-  font-color: #000000;
   color: #000000;
   padding: 0px;
   margin: 0px;
@@ -237,7 +236,7 @@ body {
     0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-p, h1, h2, h3, pre {
+p, .heads, h2, h3, pre {
   color: #ffffff;
 }
 
