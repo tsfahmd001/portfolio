@@ -356,6 +356,15 @@ p, .heads, h2, h3, pre {
   margin-bottom: 5%;
 }
 
+.frame2 {
+  position:relative;
+  width: 320px;
+  height: 100px; /* adjust to badge height */
+  box-shadow: 0 2px 8px rgba(63,69,81,0.16);
+  overflow: hidden;
+  border-radius: 8px;
+}
+
 /* ===== Mobile layout ===== */
 @media (max-width: 800px) {
   .fixed-left {
@@ -446,5 +455,12 @@ p, .heads, h2, h3, pre {
     margin-left: 0;
     margin-right: 0;
   }
+  
+  .frame2 {
+    width: 56%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
 }
 
